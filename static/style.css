@@ -1,0 +1,86 @@
+/* style.css */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #2b2b2b; /* Dark grey background */
+	color: #dcdcdc; /* Off-white text color */
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #dcdcdc; /* Off-white text color */
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #3a3a3a; /* Darker grey for contrast */
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+	max-width: 400px;
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 15px;
+	color: #dcdcdc; /* Off-white text color */
+}
+
+input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #5a5a5a; /* Slightly darker border */
+	border-radius: 4px;
+	font-size: 1rem;
+	background-color: #4a4a4a; /* Dark input background */
+	color: #dcdcdc; /* Off-white text */
+}
+
+button[type="submit"] {
+	margin-top: 20px;
+	padding: 10px 15px;
+	font-size: 1rem;
+	color: #dcdcdc; /* Off-white text color */
+	background-color: #3498db;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+	background-color: #2980b9;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 30px;
+	color: #dcdcdc; /* Off-white text color */
+}
+
+p {
+	margin-top: 10px;
+	font-size: 1rem;
+	color: #dcdcdc; /* Off-white text color */
+}
+
+img {
+	max-width: 100%;
+	border-radius: 8px;
+	margin-top: 15px;
+}
